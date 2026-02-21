@@ -38,10 +38,9 @@ export function AboutUs() {
                     </div>
 
                     <div className="relative">
-                        <div className="absolute -inset-4 border border-primary/20 rounded-2xl"></div>
                         <img
                             alt="Equipa MIR GRÁFICA trabalhando"
-                            className="rounded-xl transition-all duration-700 w-full h-[500px] object-cover border border-neutral-border"
+                            className="rounded-xl transition-all duration-700 w-full h-[500px] object-cover"
                             src={aboutUs.imageRef}
                         />
                     </div>

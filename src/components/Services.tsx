@@ -6,16 +6,14 @@ export function Services() {
     return (
         <section className="py-24 bg-white dark:bg-neutral-dark relative" id="servicos">
             <div className="max-w-7xl mx-auto px-6">
-                <div className="flex flex-col md:flex-row justify-between items-end mb-16 gap-6">
-                    <div className="max-w-xl">
-                        <h2 className="text-primary font-bold uppercase tracking-widest mb-4">
-                            {services.title}
-                        </h2>
-                        <h3 className="text-4xl md:text-6xl font-black uppercase italic tracking-tighter text-slate-900 dark:text-white">
-                            {services.headline.split(' ')[0]} <span className="text-outline">{services.headline.split(' ')[1]}</span>
-                        </h3>
-                    </div>
-                    <p className="text-slate-400 max-w-sm">
+                <div className="text-center mb-16">
+                    <h2 className="text-primary font-bold uppercase tracking-widest mb-4">
+                        {services.title}
+                    </h2>
+                    <h3 className="text-4xl md:text-6xl font-black uppercase italic tracking-tighter text-slate-900 dark:text-white">
+                        {services.headline.split(' ')[0]} <span className="text-outline">{services.headline.split(' ')[1]}</span>
+                    </h3>
+                    <p className="text-slate-400 mt-4 max-w-sm mx-auto">
                         {services.description}
                     </p>
                 </div>

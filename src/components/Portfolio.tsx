@@ -73,14 +73,12 @@ export function Portfolio() {
             id="portfolio"
         >
             <div className="max-w-7xl mx-auto px-4 md:px-6">
-                <div className="flex flex-col md:flex-row justify-between items-end mb-10 md:mb-16 gap-4">
-                    <div className="max-w-xl">
-                        <h2 className="text-primary font-bold uppercase tracking-widest mb-3 text-xs md:text-sm">Galeria de Trabalhos</h2>
-                        <h3 className="text-3xl md:text-5xl lg:text-6xl font-black uppercase italic tracking-tighter text-slate-900 dark:text-white">
-                            Nosso <span className="text-outline">Portfólio</span>
-                        </h3>
-                    </div>
-                    <p className="text-slate-400 max-w-sm text-sm">
+                <div className="text-center mb-10 md:mb-16">
+                    <h2 className="text-primary font-bold uppercase tracking-widest mb-3 text-xs md:text-sm">Galeria de Trabalhos</h2>
+                    <h3 className="text-3xl md:text-5xl lg:text-6xl font-black uppercase italic tracking-tighter text-slate-900 dark:text-white">
+                        Nosso <span className="text-outline">Portfólio</span>
+                    </h3>
+                    <p className="text-slate-400 mt-4 max-w-sm mx-auto text-sm">
                         Conheça a excelência e a diversidade dos nossos projetos realizados.
                     </p>
                 </div>

@@ -7,7 +7,7 @@ export function ConsumablesB2B() {
         <>
             <section className="py-16 md:py-24 bg-slate-50 dark:bg-[#0f130c]" id="consumiveis">
                 <div className="max-w-7xl mx-auto px-4 md:px-6">
-                    <div className="mb-10">
+                    <div className="mb-10 text-center">
                         <h2 className="text-primary font-bold uppercase tracking-widest mb-4">Loja de Materiais</h2>
                         <h3 className="text-4xl md:text-6xl font-black uppercase italic tracking-tighter dark:text-white">
                             Nossos <span className="text-outline">Consumíveis</span>
@@ -55,7 +55,7 @@ export function ConsumablesB2B() {
                             </ul>
                         </div>
                         <div className="text-center bg-primary p-10 rounded-2xl">
-                            <span className="text-background-dark text-6xl font-black">{b2b.discount}</span>
+                            <span className="text-background-dark text-2xl font-black">{b2b.discount}</span>
                             <p className="text-background-dark font-bold uppercase mt-2">{b2b.discountLabel}</p>
                         </div>
                     </div>
