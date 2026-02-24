@@ -16,7 +16,7 @@ export function ConsumablesB2B() {
 
                     <div className="relative w-full rounded-2xl overflow-hidden mb-8 md:mb-10 h-48 md:h-80">
                         <img
-                            src="/images/consumiveis.png"
+                            src="/images/consumiveis.webp"
                             alt="Consumíveis MIR GRÁFICA"
                             className="w-full h-full object-cover"
                         />
