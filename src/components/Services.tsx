@@ -26,6 +26,8 @@ export function Services() {
                                     alt={service.title}
                                     className="w-full h-full object-cover group-hover:scale-110 transition-all duration-700"
                                     src={service.img}
+                                    loading="lazy"
+                                    decoding="async"
                                 />
                             </div>
                             <div className="absolute bottom-0 p-8 pt-16 bg-gradient-to-t from-black/80 to-transparent w-full">

@@ -11,6 +11,9 @@ export function Hero() {
                     className="w-full h-full object-cover opacity-70"
                     alt="Industrial printer"
                     src={siteData.heroImages.mainPlaceholder}
+                    loading="eager"
+                    fetchPriority="high"
+                    decoding="async"
                 />
             </div>
 

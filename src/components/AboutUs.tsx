@@ -42,6 +42,8 @@ export function AboutUs() {
                             alt="Equipa MIR GRÁFICA trabalhando"
                             className="rounded-xl transition-all duration-700 w-full h-[500px] object-cover"
                             src={aboutUs.imageRef}
+                            loading="lazy"
+                            decoding="async"
                         />
                     </div>
                 </div>

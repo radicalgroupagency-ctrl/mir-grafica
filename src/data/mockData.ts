@@ -2,9 +2,9 @@ export const siteData = {
     companyName: "MIR GRÁFICA",
     tagline: "A Maior Referência em Impressão e Comunicação Visual em Nampula",
     subTagline: "Qualidade e Inovação Em Grande Formato",
-    logo: "/images/logo.png",
+    logo: "/images/logo.webp",
     heroImages: {
-        mainPlaceholder: "/images/hero-plotter.png",
+        mainPlaceholder: "/images/hero-plotter.webp",
     },
     navigation: [
         { label: "Início", path: "#" },
@@ -29,7 +29,7 @@ export const siteData = {
             { value: "1500+", label: "Clientes Satisfeitos" },
             { value: "3000+", label: "Projetos Realizados" },
         ],
-        imageRef: "/images/equipe-mir.png"
+        imageRef: "/images/equipe-mir.webp"
     },
     features: [
         { title: "Entrega Rápida", desc: "Prazos rigorosos para o seu negócio não parar.", icon: "airport_shuttle" },
@@ -41,12 +41,12 @@ export const siteData = {
         headline: "Nossos Serviços",
         description: "Soluções completas de design e impressão para elevar o impacto visual da sua empresa.",
         items: [
-            { category: "Branding", title: "Personalização de Camisetas e Objetos", desc: "Vestuário e brindes exclusivos para a sua marca.", img: "/images/personalizacao-objeto.png" },
+            { category: "Branding", title: "Personalização de Camisetas e Objetos", desc: "Vestuário e brindes exclusivos para a sua marca.", img: "/images/personalizacao-objeto.webp" },
             { category: "Design", title: "Design Empresarial e Criação", desc: "Identidade visual e artes que comunicam valor.", img: "https://lh3.googleusercontent.com/aida-public/AB6AXuAEyeQwDm2AAqowPgQnqYsfa77J6wqcvp3q-cMOmK3bixHlchfGa42hMRWE01tSX-0j8uAed5GKM9MHqHRAPdDE8MajHJqc-wLS8YzZ_J13Vw3rpzsMELfoC19LgU4fxCNeJt_xLjcGzorpy9yc0pKcUVaY9nEItMqBLbtEIDf8eX-c9Qr96iOqBnlIoVion_3HpKdVVs-0n5VAfnkxBvLSYV4ss6gzPCHUszLcS5JRqBw2v3hiAIwLHgOukyDC3ES9NGZE3mC5okw" },
-            { category: "Materiais", title: "Impressão e Venda de Vinil", desc: "Vinil de alta aderência para qualquer superfície.", img: "/images/rolos-vinil.png" },
-            { category: "Confecção", title: "Serigrafia e Bordado", desc: "Serviços especializados de costura industrial.", img: "/images/bordado.png" },
-            { category: "Corte", title: "Reclames Luminosos e Corte", desc: "Precisão absoluta em diversos materiais.", img: "/images/letreiro-luminoso.png" },
-            { category: "Impacto", title: "Impressão UV / DTF", desc: "Comunicação de larga escala com alta durabilidade.", img: "/images/impressao-uv-dtf.png" }
+            { category: "Materiais", title: "Impressão e Venda de Vinil", desc: "Vinil de alta aderência para qualquer superfície.", img: "/images/rolos-vinil.webp" },
+            { category: "Confecção", title: "Serigrafia e Bordado", desc: "Serviços especializados de costura industrial.", img: "/images/bordado.webp" },
+            { category: "Corte", title: "Reclames Luminosos e Corte", desc: "Precisão absoluta em diversos materiais.", img: "/images/letreiro-luminoso.webp" },
+            { category: "Impacto", title: "Impressão UV / DTF", desc: "Comunicação de larga escala com alta durabilidade.", img: "/images/impressao-uv-dtf.webp" }
         ]
     },
     consumables: [
