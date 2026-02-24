@@ -55,8 +55,8 @@ export function ConsumablesB2B() {
                             </ul>
                         </div>
                         <div className="text-center bg-primary p-10 rounded-2xl">
-                            <span className="text-background-dark text-2xl font-black">{b2b.discount}</span>
-                            <p className="text-background-dark font-bold uppercase mt-2">{b2b.discountLabel}</p>
+                            <span className="text-background-dark text-base font-black">{b2b.discount}</span>
+                            <p className="text-background-dark font-bold uppercase mt-2 text-xs">{b2b.discountLabel}</p>
                         </div>
                     </div>
                 </div>

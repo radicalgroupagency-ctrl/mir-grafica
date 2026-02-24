@@ -8,8 +8,8 @@ export function AboutUs() {
             <div className="max-w-7xl mx-auto px-4 md:px-6">
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
                     <div>
-                        <h2 className="text-primary font-bold uppercase tracking-widest mb-3 text-xs md:text-sm">{aboutUs.title}</h2>
-                        <h3 className="text-3xl md:text-5xl lg:text-6xl font-black uppercase italic tracking-tighter text-slate-900 dark:text-white mb-6 md:mb-8">
+                        <h2 className="text-primary font-bold uppercase tracking-widest mb-3 text-xs md:text-sm text-center">{aboutUs.title}</h2>
+                        <h3 className="text-3xl md:text-5xl lg:text-6xl font-black uppercase italic tracking-tighter text-slate-900 dark:text-white mb-6 md:mb-8 text-center">
                             {aboutUs.headline.split('\n')[0]} <br />
                             <span className="text-outline">{aboutUs.headline.split('\n')[1]}</span>
                         </h3>
@@ -40,7 +40,7 @@ export function AboutUs() {
                     <div className="relative">
                         <img
                             alt="Equipa MIR GRÁFICA trabalhando"
-                            className="rounded-xl transition-all duration-700 w-full h-[500px] object-cover"
+                            className="rounded-xl transition-all duration-700 w-full h-[500px] object-cover border-0 outline-none"
                             src={aboutUs.imageRef}
                             loading="lazy"
                             decoding="async"
