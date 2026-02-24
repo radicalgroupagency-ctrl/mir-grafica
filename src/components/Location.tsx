@@ -6,7 +6,7 @@ const TOTAL_FRAMES = 288;
 const STEP = 3;
 const FRAMES: string[] = [];
 for (let i = 1; i <= TOTAL_FRAMES; i += STEP) {
-    FRAMES.push(`/mapa-animado/ezgif-frame-${String(i).padStart(3, '0')}.jpg`);
+    FRAMES.push(`/mapa-animado/ezgif-frame-${String(i).padStart(3, '0')}.webp`);
 }
 
 const MS_PER_FRAME = 110; // ~9 fps — reliable across all browsers
